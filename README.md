@@ -6,6 +6,12 @@ Install ShadowDroid on macOS or Linux:
 brew install andriyo/tap/shadowdroid
 ```
 
+ShadowDroid requires Android Platform Tools (`adb`) on PATH:
+
+```sh
+brew install --cask android-platform-tools
+```
+
 Upgrade later:
 
 ```sh
