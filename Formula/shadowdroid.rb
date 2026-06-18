@@ -5,21 +5,21 @@ class Shadowdroid < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/andriyo/ShadowDroid/releases/download/v0.2.0/shadowdroid-aarch64-apple-darwin.tar.gz"
-      sha256 "0985f0904f155dae98bb7c7eb515d7916817ac09a4914e54d50ee06a2a16b5bb"
+      url "https://github.com/andriyo/ShadowDroid/releases/download/v0.3.0/shadowdroid-aarch64-apple-darwin.tar.gz"
+      sha256 "2d89c73a8fe5c9b3b2bcf5b3cbca7bfa3856723bcba8fe48abeedb6a3e6a8115"
     else
-      url "https://github.com/andriyo/ShadowDroid/releases/download/v0.2.0/shadowdroid-x86_64-apple-darwin.tar.gz"
-      sha256 "3729e0660949b2a9c000daee16e1b1d9a2204961e31539700834c5c6754b7898"
+      url "https://github.com/andriyo/ShadowDroid/releases/download/v0.3.0/shadowdroid-x86_64-apple-darwin.tar.gz"
+      sha256 "a91a547abc35ea3d13e5e5d0edb3ac37be5b24decde8366c63032b63de720efe"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/andriyo/ShadowDroid/releases/download/v0.2.0/shadowdroid-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "573299062600da23e03c57625313a9a11c3a871a61e50ca46ca0c57e20000b4c"
+      url "https://github.com/andriyo/ShadowDroid/releases/download/v0.3.0/shadowdroid-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c19109638068092666f60ec1b6c5e3237e328a56317fb96a939d8153a2222c64"
     else
-      url "https://github.com/andriyo/ShadowDroid/releases/download/v0.2.0/shadowdroid-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1dc0d83c0b5eb2b23e79a19075a602bb40f3a2820f2efd5cbe0a73fbaf2d3fba"
+      url "https://github.com/andriyo/ShadowDroid/releases/download/v0.3.0/shadowdroid-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "33979f8ac8fdf5dca50f15ef9cac9492ecb2551142eca20f4d441be7877cdc75"
     end
   end
 
